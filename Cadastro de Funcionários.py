@@ -1,15 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[47]:
-
-
 # Dicionário que vai armazenar os valores
 funcionarios = {}
-
-
-# In[48]:
-
 
 # Função para cadastrar um novo funcionário
 def cadastrar():
@@ -48,9 +38,6 @@ def modificar(id, campo, novo):
     funcionarios[id][campo] = novo
     
     return print("Campo alterado")
-
-
-# In[49]:
 
 
 # Função principal
@@ -139,9 +126,6 @@ def programa():
         else:
             print('-------------------------------------')
             print("Valor incorreto. Tente novamente")
-
-
-# In[50]:
 
 
 # Chamamento da função principal que inicia o programa
